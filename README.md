@@ -1,4 +1,6 @@
-# This is an Ecommerce Website developed as a Database project.
+# SHOPCART
+
+## This is an Ecommerce Website developed as a Database project.
 
 ### Tools Used
 1. Html
