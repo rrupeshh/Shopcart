@@ -1,0 +1,713 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Trebuchet MS", sans-serif;
+    transition: background 0.4s;
+}
+body{
+    background: #f1edf7;
+}
+
+#header{
+    background: #7194f2;
+    height: 110px;
+    width: 100%;
+}
+
+#logo{
+    width: 20%;
+    padding:5px;
+
+    float: left;
+
+}
+
+#logo img {
+    width: 80%;
+    height: 100px;
+	margin-left: 10px;
+
+}
+
+#link{
+    width: 78.6%;
+    height: 30px;
+    float:left;
+
+}
+
+#link ul{
+    list-style: none;
+    margin-right: 20px;
+}
+#link ul li{
+    float:right;
+    margin-left:30px;
+}
+
+#link ul li a{
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+#search form input{
+    border-width:0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width:55%;
+    height: 35px;
+	padding-left:2%;
+    outline: none;
+
+}
+
+#search_btn{
+    margin-left: -10px;
+    width: 10%;
+    height:35.5px;
+    background: #405ba5;
+    color: #fff;
+    border-width: 0px;
+    font-weight: bold;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+
+}
+
+#search_btn:hover {
+  background: #17D;
+}
+
+#searchandcart {
+	width: 100%;
+}
+
+#search {
+	width: 65%;
+	float: left;
+}
+
+#cart_btn {
+	display: block;
+	width: 10%;
+	border-radius:3px;
+    height:35.5px;
+    background:#405ba5;
+    color: #fff;
+    border-width: 0px;
+    font-weight: bold;
+	float: left;
+  cursor: pointer;
+}
+
+#cart_btn:hover {
+  background: #17D;
+}
+
+#navbar{
+    width:100%;
+    height: 40px;
+    background:#405ba5;
+    overflow: hidden;
+
+}
+#navbar ul{
+    list-style: none;
+
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+    font-family: Tahoma;
+
+}
+#navbar ul li a:hover{
+    background: #7194f2;
+
+}
+#bodyleft{
+
+    box-sizing: border-box;
+    width: 72%;
+    margin: 1% ;
+    float: left;
+    background:#fff;
+    border-radius: 3px;
+	min-height: 400px;
+}
+#bodyleft h2 {
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #405ba5;
+    line-height: 40px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    text-shadow: 5px 5px 5px #001244;
+}
+
+#bodyleft .cat_disp h3{
+    font-family: "Trebuchet MS", sans-serif;
+    height:40px;
+    border-radius: 3px;
+    line-height: 40px;
+    margin-top:50px;
+    background: #405ba5;
+    color: #fff;
+    padding-left: 3%;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+#bodyleft .cat_disp ul {
+	list-style: none;
+	width: 100%;
+}
+
+#bodyleft .cat_disp ul li {
+	box-sizing: border-box;
+	width: 31%;
+	float: left;
+	margin: 11.99px;
+	position: relative;
+	height: 300px;
+	cursor: pointer;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+	transition: box-shadow 0.3s;
+}
+
+#bodyleft .cat_disp ul li:hover {
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.2), 0px 0px 30px rgba(0,0,0,0.2);
+}
+
+#bodyleft .cat_disp ul li .pro_img img {
+	width: 100%;
+	height: 300px;
+}
+
+#bodyleft .cat_disp ul li .slide_section {
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	left: 0;
+	background: rgba(255,255,255,0.8);
+	width: 100%;
+	overflow: hidden;
+	height: 60px; /* 150px to implement */
+	transition: height 0.1s ease-out;
+}
+
+#bodyleft .cat_disp ul li:hover .slide_section {
+	height: 150px;
+}
+
+#bodyleft .cat_disp ul li .slide_section .pro_head {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #444;
+}
+
+#bodyleft .cat_disp ul li .slide_section .pro_price {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: "Trebuchet MS", sans-serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	color: #f00;
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 1px solid #999;
+}
+
+#bodyleft .cat_disp ul li .slide_section .pro_rating {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 24px;
+	color: #efbe1c;
+}
+
+#bodyleft .cat_disp ul li .slide_section .pro_wishlist {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-size: 24px;
+	z-index: 5;
+	position: relative;
+	bottom: -100px;
+	transition: bottom 0.4s;
+}
+
+#bodyleft .cat_disp ul li:hover  .slide_section .pro_wishlist {
+	bottom: 0px;
+}
+
+#bodyleft .cat_disp ul li .slide_section .pro_wishlist a {
+	font-family: "Trebuchet MS", sans-serif;
+	text-decoration: none;
+	color: #555;
+}
+/*
+#bodyleft .cat_disp ul{
+    list-style: none;
+    margin-top:10px;
+}
+#bodyleft .cat_disp ul li {
+    list-style: none;
+    width: 31%;
+    height:350px;
+    border: 3px solid #e6e6e6;
+    float: left;
+    margin-left:1%;
+    margin-top:10px;
+
+}
+#bodyleft .cat_disp h3{
+    height:40px;
+    border-radius: 3px;
+    line-height: 40px;
+    margin-top:50px;
+    background: #405ba5;
+    color: #fff;
+    padding-left: 3%;
+    text-shadow: 5px 5px 5px #001244;
+}*/
+
+#slider{
+    overflow: hidden;
+}
+
+#slider h2 {
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+#slide{
+     position: relative;
+    width: 6910px;
+    height: 350px;
+     animation-name: slider;
+    animation-duration: 20s;
+     animation-iteration-count: infinite;
+
+
+}
+
+ #slide img{
+    width: 20%;
+    height: 100%;
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    float: left;
+
+}
+
+@keyframes slider{
+    0%{
+        left:0px;
+
+    }
+    20%{
+        left:0px;
+    }
+    25%{
+        left:-1382px;
+    }
+    45%{
+        left:-1382px;
+    }
+    50%{
+        left:-2764px;
+    }
+    70%{
+        left:-2764px;
+    }
+    75%{
+        left:-4146px;
+    }
+    95%{
+        left:-4146px;
+    }
+    100%{
+        left:0px;
+
+    }
+    0%{
+        left:0px;
+    }
+}
+
+/* left and right section of each product starts */
+#bodyleft #bodyleft_left_section {
+	width: 50%;
+	float: left;
+}
+
+#bodyleft #bodyleft_left_section img {
+	width: 100%;
+}
+
+#bodyleft #bodyleft_right_section {
+	width: 50%;
+	float: left;
+}
+
+#bodyleft #bodyleft_right_section #product_name {
+	color: #444;
+	font-size: 18px;
+	padding: 10px;
+	border-bottom: 2px solid #d1d1d1;
+}
+
+#bodyleft #bodyleft_right_section #product_price {
+	color: #666;
+	font-size: 12px;
+	padding: 10px;
+}
+
+#bodyleft #bodyleft_right_section #product_quantity {
+	font-size: 14px;
+	padding: 10px;
+	color: #666;
+	border-top: 2px solid #d1d1d1;
+	border-bottom: 2px solid #d1d1d1;
+	background: #f1f1f1;
+}
+
+#bodyleft #bodyleft_right_section #product_quantity select {
+	width: 8%;
+	padding: 4px;
+	outline: none;
+	border: 1px solid #d1d1d1;
+	border-radius: 2px;
+}
+
+#bodyleft #bodyleft_right_section #product_quantity select:focus {
+	border: 1px solid #a1a1a1;
+}
+
+#bodyleft #bodyleft_right_section #location {
+	padding: 10px;
+	color: #444;
+	font-size: 14px;
+}
+
+#bodyleft #bodyleft_right_section #location input[type="text"] {
+	padding: 4px;
+	outline: none;
+	border: 1px solid #d1d1d1;
+	border-radius: 2px;
+	color: #555;
+}
+#bodyleft #bodyleft_right_section #location input[type="text"]:focus {
+	border: 1px solid #a1a1a1;
+}
+
+#bodyleft #bodyleft_right_section #add_to_cart {
+	padding: 10px;
+}
+
+#bodyleft #bodyleft_right_section #add_to_cart input[type="submit"] {
+	color: #fff;
+	font-weight: bold;
+	font-family: "Trebuchet MS", sans-serif;
+	background: #4c4cdb;
+	width: 100%;
+	padding: 5px;
+	font-size: 26px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+#bodyleft #bodyleft_right_section #add_to_cart input[type="submit"]:hover {
+	background: #3c3cd1;
+}
+/* left and right section of each product ends */
+
+/* For individual products in customercart.php starts */
+
+#bodyleft .individual_products {
+	padding: 10px;
+	border: 2px solid #e1e1e1;
+	border-top: 0px;
+}
+
+#bodyleft .individual_products .individual_products_image {
+	width: 20%;
+	float: left;
+}
+#bodyleft .individual_products .individual_products_image img {
+	width: 100%;
+}
+
+#bodyleft .individual_products .individual_products_nameanddate {
+	box-sizing: border-box;
+	padding-left: 10px;
+	width: 20%;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	color: #444;
+}
+#bodyleft .individual_products .individual_products_priceandlocation {
+	box-sizing: border-box;
+	padding-left: 10px;
+	width: 20%;
+	float: left;
+	color: #444;
+}
+#bodyleft .individual_products .individual_products_quantity {
+	box-sizing: border-box;
+	padding-left: 10px;
+	width: 20%;
+	float: left;
+	color: #444;
+}
+#bodyleft .individual_products .individual_products_delete {
+	box-sizing: border-box;
+	padding-left: 10px;
+	width: 20%;
+	float: left;
+}
+#bodyleft .individual_products .individual_products_delete a {
+	text-decoration: none;
+	color: #27d;
+	font-style: italic;
+}
+#bodyleft .individual_products .individual_products_delete a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+/* For individual products in customercart.php ends */
+
+/* Clear and Checkout Buttons Starts */
+#checkandclear a {
+	box-sizing: border-box;
+	display: block;
+	width: 50%;
+	float: left;
+	text-decoration: none;
+	color: #fff;
+	background: #16C;
+	font-size: 18px;
+	text-align: center;
+	border: 2px solid #fff;
+	padding: 10px;
+}
+
+#checkandclear a:hover {
+	background: #5344EE;
+}
+
+/* Clear and Checkout Buttons ends */
+
+#bodyright{
+    width: 25%;
+    border-radius: 3px;
+    margin: 1% 1% 0% 0%;
+    float: left;
+    background: #fff;
+
+
+}
+
+#bodyright h3 {
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #405ba5;
+    line-height: 40px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+#bodyright #bodyright_offer img {
+	width: 100%;
+}
+
+
+/* Admin section design start */
+
+#admin_content{
+    box-sizing: border-box;
+    width: 72%;
+    margin-left:auto ;
+    margin-right:auto;
+    align-content: center;
+    background:#fff;
+    border-radius: 3px;
+    position: relative;
+
+}
+#admin_content h2 {
+    margin-top:10px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #405ba5;
+    line-height: 40px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    text-shadow: 5px 5px 5px #001244;
+}
+
+#admin_content #form{
+    position: relative;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#admin_content #addnew_product_form table{
+    font-size: 20px;
+       position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#admin_content #addnew_product_form #sub_btn{
+    position: relative;
+    margin-left: 300px;
+    padding:2px;
+    height:35.5px;
+    width:100px;
+    background: #405ba5;
+    color: #fff;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+#admin_content #addnew_product_form  .input_form{
+    width: 400px;
+    height: 40px;
+    border:2px solid #e1e1e1;
+    border-radius: 3px;
+    outline: none;
+    padding: 10px;
+
+}
+
+#admin_content #addnew_product_form  .input_form .opt{
+    font-size: 20px;
+    color: dimgray;
+
+
+}
+
+/* Admin section design end */
+
+
+#comment{
+    width: 100%;
+    
+}
+
+#comment_field{
+    margin-left:12px;
+    width:48%;
+    border: 1px solid #e1e1e1;
+    
+}
+#comment_header{
+     width: 100%;
+    height: 35px;
+    background: #405ba5;
+    clear:both;
+     margin-bottom: 10px;
+    padding: 6px;
+}
+
+#comment_header h1{
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+}
+#comment_form input[type = "text"]{
+    height:30px;
+    width: 600px;
+    padding: 5px;
+    
+}
+
+#comment_form input[type="submit"] {
+	color: #fff;
+	font-weight: bold;
+	font-family: "Trebuchet MS", sans-serif;
+	background: #405ba5;
+	height:42px;
+    padding-left: 5px;
+    padding-right: 5px;
+	
+	
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+#individual_comment_content_reply{
+    margin-left: 50px;
+    
+}
+#reply_form input[type = "text"]{
+    height:25px;
+    width: 300px;
+    padding: 5px;
+    
+}
+
+#reply_form input[type="submit"] {
+	color: #fff;
+	font-weight: bold;
+	font-family: "Trebuchet MS", sans-serif;
+	background: #405ba5;
+	height:37px;
+    padding-left: 5px;
+    padding-right: 5px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+#wish_header h3{
+       height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #405ba5;
+    line-height: 40px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+#footer{
+    width: 100%;
+    height: 35px;
+    background: #405ba5;
+    clear:both;
+}
+#footer h4{
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+}
