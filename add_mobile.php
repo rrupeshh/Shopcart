@@ -23,7 +23,7 @@
 ?>
 <html>
     <head>
-        <title>ShopCart</title>
+        <title>Shop-Cart</title>
         <link rel = "stylesheet" href = "css/style.css">      
     </head>
     <body>
